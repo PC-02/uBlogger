@@ -11,7 +11,7 @@ themesDir = "../.."
 
 # website title
 # 网站标题
-title = "uBlogger"
+title = "PC"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -38,41 +38,33 @@ enableEmoji = true
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
+       [[languages.en.menu.main]]
+        identifier = "projects"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Posts"
-        url = "/posts/"
+        name = "Projects"
+        url = "/projects/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "tags"
+        identifier = "activities"
         pre = ""
         post = ""
-        name = "Tags"
-        url = "/tags/"
+        name = "Activities"
+        url = "/activities/"
         title = ""
         weight = 2
       [[languages.en.menu.main]]
-        identifier = "categories"
+        identifier = "education"
         pre = ""
         post = ""
-        name = "Categories"
-        url = "/categories/"
+        name = "Education"
+        url = "/education/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -80,15 +72,15 @@ enableEmoji = true
         name = "About"
         url = "/about/"
         title = ""
-        weight = 5
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/upagge/ublogger"
+        url = "https://github.com/PC-02"
         title = "GitHub"
-        weight = 6
+        weight = 5
     [languages.en.params]
       # site description
       description = "About uBlogger Theme"
@@ -97,7 +89,7 @@ enableEmoji = true
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "uBlogger"
+        title = "Pranav Chachara"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -141,9 +133,9 @@ enableEmoji = true
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
-          title = "uBlogger | Hugo Theme"
+          title = "Pranav Chachara | Student"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Learning something new, one Hello World at a time."
           # whether to use typeit animation for subtitle
           typeit = false
           # whether to show social links
@@ -152,20 +144,20 @@ enableEmoji = true
           disclaimer = ""
         # Home page posts
         [languages.en.params.home.posts]
-          enable = true
+          enable = false
           # special amount of posts in each home posts page
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "xxxx"
-        Linkedin = ""
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
+        GitHub = "PC-02"
+        Linkedin = "pranav-chachara"
+        Twitter = "PC__02"
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
         Medium = ""
         Gitlab = ""
-        Youtubelegacy = "xxxx"
+        Youtubelegacy = ""
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
@@ -218,11 +210,8 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        Email = "pranavc10@hotmail.com"
+        RSS = false
 
 [params]
   # uBlogger theme version
@@ -259,7 +248,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "uBlogger"
+      name = "PC"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
@@ -325,7 +314,7 @@ enableEmoji = true
   # Comment config
   # 评论系统设置
   [params.comment]
-    enable = true
+    enable = false
     [params.comment.remark42]
       enable = true
       host = "https://comments.upagge.ru"
