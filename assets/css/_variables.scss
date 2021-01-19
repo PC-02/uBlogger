@@ -4,7 +4,7 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$global-font-family: Quantico, system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $global-font-size: 16px;
 $global-font-weight: 400;
 $global-line-height: 1.5rem;
@@ -13,29 +13,29 @@ $global-color-accent: #2c678d;
 
 // Color of the background
 $global-background-color: #ffffff !default;
-$global-background-color-dark: #282c35 !default;
+$global-background-color-dark: #0e0f11 !default;
 
 $global-background-secondary-color: #eee;
-$global-background-secondary-color-dark: #1B1B1C;
+$global-background-secondary-color-dark: #0e0f11;
 
 $global-secondary-color: #DDD;
 $global-secondary-color-dark: #a9a9b3;
 
 // Color of the text
 $global-font-color: #161209 !default;
-$global-font-color-dark: #a9a9b3 !default;
+$global-font-color-dark: #e1d0de !default;
 
 // Color of the secondary text
 $global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+$global-font-secondary-color-dark: #e1d0de !default;
 
 // Color of the link
 $global-link-color: #161209 !default;
-$global-link-color-dark: #a9a9b3 !default;
+$global-link-color-dark: #e1d0de !default;
 
 // Color of the hover link
 $global-link-hover-color: #2d96bd !default;
-$global-link-hover-color-dark: #fff !default;
+$global-link-hover-color-dark: #ffff !default;
 
 // Color of the border
 $global-border-color: #2c678d !default;
